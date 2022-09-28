@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterTeads'
-  s.version          = '5.0.16.1'
+  s.version          = '5.0.20.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
   s.dependency 'AMRSDK', '~> 1.5.7'
-  s.dependency 'TeadsSDK', '5.0.16'
+  s.dependency 'TeadsSDK', '5.0.20'
 end
